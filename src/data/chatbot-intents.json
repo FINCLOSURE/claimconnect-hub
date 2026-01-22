@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "id": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon"],
+      "responses": ["Hello! I'm here to help you with deceased account claims. How can I assist you today?", "Hi there! Welcome to the Claims Platform. What would you like to know?"]
+    },
+    {
+      "id": "what_is_this",
+      "patterns": ["what is this", "what does this platform do", "purpose", "about"],
+      "responses": ["This platform helps you claim assets from deceased accounts. We guide you through document submission, verification, and asset discovery to ensure a smooth claims process."]
+    },
+    {
+      "id": "how_to_start",
+      "patterns": ["how do i start", "begin claim", "start process", "get started"],
+      "responses": ["To start a claim: 1) Create an account or log in, 2) Click 'Start New Claim', 3) Provide deceased person's details, 4) Upload required documents. Our team will guide you through each step."]
+    },
+    {
+      "id": "required_documents",
+      "patterns": ["documents needed", "what documents", "required documents", "paperwork"],
+      "responses": ["You'll typically need: Death Certificate, Your ID (passport/driver's license), Proof of relationship (marriage/birth certificate), and any account statements if available. All documents should be clear JPG, PNG, or PDF files."]
+    },
+    {
+      "id": "death_certificate",
+      "patterns": ["death certificate", "certificate of death", "proof of death"],
+      "responses": ["A certified death certificate is required. It must be an official document from the relevant government authority. You can upload it as a JPG, PNG, or PDF file."]
+    },
+    {
+      "id": "processing_time",
+      "patterns": ["how long", "processing time", "when will", "timeline", "duration"],
+      "responses": ["Document verification typically takes 2-5 business days. Asset discovery may take 2-4 weeks depending on the number of institutions involved. Complex cases may require additional time."]
+    },
+    {
+      "id": "status_check",
+      "patterns": ["check status", "claim status", "where is my claim", "progress"],
+      "responses": ["You can check your claim status anytime from your Dashboard. Each claim shows its current stage: Started → Documents Uploaded → Under Review → Verified → Approved."]
+    },
+    {
+      "id": "upload_help",
+      "patterns": ["upload problem", "can't upload", "upload error", "file issue"],
+      "responses": ["For uploads: Use JPG, PNG, or PDF files only. Maximum file size is 10MB. Ensure the document is clear and readable. If issues persist, try a different browser or contact support."]
+    },
+    {
+      "id": "ocr_explanation",
+      "patterns": ["ocr", "text extraction", "scanning", "document reading"],
+      "responses": ["Our OCR (Optical Character Recognition) technology automatically extracts text from your documents. This speeds up verification but human reviewers always confirm the accuracy."]
+    },
+    {
+      "id": "verification_process",
+      "patterns": ["verification", "how verified", "who verifies", "review process"],
+      "responses": ["Our trained reviewers manually verify each document against official records. They check authenticity, legibility, and completeness. You'll be notified if additional information is needed."]
+    },
+    {
+      "id": "asset_discovery",
+      "patterns": ["find assets", "discover accounts", "asset search", "hidden accounts"],
+      "responses": ["After document verification, we search for assets across banks, insurance companies, investment firms, and other institutions. We'll notify you of any discovered assets on your dashboard."]
+    },
+    {
+      "id": "claim_asset",
+      "patterns": ["claim asset", "how to claim", "get money", "transfer funds"],
+      "responses": ["Once assets are discovered, you can initiate a claim from your dashboard. Select the asset, confirm your details, and our team will coordinate with the institution for transfer."]
+    },
+    {
+      "id": "fees",
+      "patterns": ["cost", "fees", "charges", "how much", "price"],
+      "responses": ["Our fee structure is transparent. Basic claims have no upfront cost. We only charge a small percentage upon successful asset recovery. Contact support for detailed fee information."]
+    },
+    {
+      "id": "security",
+      "patterns": ["secure", "privacy", "data protection", "safe"],
+      "responses": ["Your data is protected with bank-level encryption. We comply with all data protection regulations. Documents are stored securely and only accessed by authorized reviewers."]
+    },
+    {
+      "id": "contact_support",
+      "patterns": ["talk to human", "contact support", "speak to someone", "customer service", "help desk"],
+      "responses": ["You can reach our support team by clicking 'Escalate to Support' in the help menu, or use the support form. Our team typically responds within 24 hours."]
+    },
+    {
+      "id": "account_issues",
+      "patterns": ["login problem", "password reset", "account locked", "can't access"],
+      "responses": ["For login issues, try 'Forgot Password' on the login page. If your account is locked, please contact support with your registered email. We'll help you regain access."]
+    },
+    {
+      "id": "document_rejection",
+      "patterns": ["rejected", "document rejected", "why rejected", "not accepted"],
+      "responses": ["Documents may be rejected for: poor image quality, incomplete information, or authenticity concerns. Check the rejection reason in your dashboard and upload a clearer copy."]
+    },
+    {
+      "id": "multiple_claims",
+      "patterns": ["multiple claims", "more than one", "another claim", "several deceased"],
+      "responses": ["Yes, you can file multiple claims for different deceased individuals. Each claim is processed independently. Start a new claim session for each person."]
+    },
+    {
+      "id": "relationship_proof",
+      "patterns": ["prove relationship", "relationship document", "how related"],
+      "responses": ["Acceptable relationship proofs include: Marriage certificates, Birth certificates, Court orders, Legal guardianship documents, or Notarized affidavits in some cases."]
+    },
+    {
+      "id": "international",
+      "patterns": ["international", "abroad", "foreign", "overseas", "another country"],
+      "responses": ["We handle international claims, though they may require additional documentation and take longer to process. Contact support for guidance on specific country requirements."]
+    },
+    {
+      "id": "estate_executor",
+      "patterns": ["executor", "administrator", "estate representative", "legal authority"],
+      "responses": ["If you're the estate executor, please upload Letters Testamentary or Letters of Administration along with other documents. This authorizes you to act on behalf of the estate."]
+    },
+    {
+      "id": "loan_claims",
+      "patterns": ["loan", "debt", "mortgage", "owed money"],
+      "responses": ["We also handle loan and debt discovery. If the deceased had outstanding loans, you can view them in your dashboard. Some debts may need to be settled from the estate."]
+    },
+    {
+      "id": "receipt_upload",
+      "patterns": ["upload receipt", "payment proof", "settlement receipt"],
+      "responses": ["After settling a loan or debt, upload the receipt through your dashboard. Select the loan, click 'Upload Receipt', and attach the payment confirmation document."]
+    },
+    {
+      "id": "audit_logs",
+      "patterns": ["audit", "activity log", "history", "track changes"],
+      "responses": ["Administrators can view complete audit logs of all actions. This ensures transparency and accountability throughout the claims process."]
+    },
+    {
+      "id": "escalate",
+      "patterns": ["escalate", "urgent", "priority", "immediate help", "emergency"],
+      "responses": ["For urgent matters, use our 'Escalate to Support' feature. Mark your ticket as high priority, and our team will respond within 4 hours during business hours."]
+    },
+    {
+      "id": "flowchart",
+      "patterns": ["process flow", "flowchart", "diagram", "steps visualization"],
+      "responses": ["You can view the complete claims process flowchart on the 'Process Flow' page. It shows all steps from registration to asset transfer."]
+    },
+    {
+      "id": "consent",
+      "patterns": ["consent", "agree", "terms", "permission"],
+      "responses": ["Before starting a claim, you'll need to provide consent for us to verify documents and search for assets. This is required by law and protects all parties involved."]
+    },
+    {
+      "id": "goodbye",
+      "patterns": ["bye", "goodbye", "thank you", "thanks", "that's all"],
+      "responses": ["You're welcome! If you have more questions, feel free to ask anytime. Good luck with your claim!", "Thank you for using our platform. We're here 24/7 if you need assistance. Take care!"]
+    }
+  ]
+}
